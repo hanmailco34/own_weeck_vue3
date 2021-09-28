@@ -9,6 +9,20 @@
     <router-link to="/databindingselect">Data BindingSelect</router-link> |
     <router-link to="/databindingcheckbox">Data BindingCheckbox</router-link> |
     <router-link to="/databindingcheckbox2">Data BindingCheckbox2</router-link> |
+    <router-link to="/databindingradio">Data BindingRadio</router-link> |
+    <router-link to="/DataBindingAttribue">DataBindingAttribue</router-link> |
+    <router-link to="/DataBindingButton">DataBindingButton</router-link> |
+    <router-link to="/DataBindingClass">DataBindingClass</router-link> |
+    <router-link to="/DataBindingClass2">DataBindingClass2</router-link> |
+    <router-link to="/DataBindingList">DataBindingList</router-link> |
+    <router-link to="/DataBindingVIf">DataBindingVIf</router-link> |
+    <router-link to="/EventClick">EventClick</router-link> |
+    <router-link to="/EventChange">EventChange</router-link> |
+    <router-link to="/Computed">Computed</router-link> |
+    <router-link to="/Watch">Watch</router-link> |
+    <router-link to="/Watch2">Watch2</router-link> |
+    <router-link to="/DataBindingList2">DataBindingList2</router-link> |
+    
   </div>
   <router-view/>
 </template>

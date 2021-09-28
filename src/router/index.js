@@ -7,8 +7,51 @@ import DataBindingTextarea from '../views/DataBindingTextarea.vue';
 import DataBindingSelect from '../views/DataBindingSelect.vue';
 import DataBindingCheckbox from '../views/DataBindingCheckbox.vue';
 import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue';
+import DataBindingRadio from '../views/DataBindingRadio.vue';
+import DataBindingAttribue from '../views/DataBindingAttribue.vue';
+import DataBindingButton from '../views/DataBindingButton.vue';
+import DataBindingClass from '../views/DataBindingClass.vue';
+import DataBindingClass2 from '../views/DataBindingClass2.vue';
+import DataBindingList from '../views/DataBindingList.vue';
+import DataBindingVIf from '../views/DataBindingVIf.vue';
+import EventClick from '../views/EventClick.vue';
+import EventChange from '../views/EventChange.vue';
+import Computed from '../views/Computed.vue';
+import Watch from '../views/Watch.vue';
+import Watch2 from '../views/Watch2.vue';
+import DataBindingList2 from '../views/DataBindingList2.vue';
 
 const routes = [
+  {
+    path: '/DataBindingList2',
+    name: 'DataBindingList2',
+    component: DataBindingList2
+  },
+  {
+    path: '/Watch2',
+    name: 'Watch2',
+    component: Watch2
+  },
+  {
+    path: '/Watch',
+    name: 'Watch',
+    component: Watch
+  },
+  {
+    path: '/Computed',
+    name: 'Computed',
+    component: Computed
+  },
+  {
+    path: '/EventChange',
+    name: 'EventChange',
+    component: EventChange
+  },
+  {
+    path: '/EventClick',
+    name: 'EventClick',
+    component: EventClick
+  },
   {
     path: '/',
     name: 'Home',
@@ -57,7 +100,43 @@ const routes = [
     path: '/databindingcheckbox2',
     name: 'DataBindingCheckbox2',
     component: DataBindingCheckbox2
-  }
+  },
+  {
+    path: '/databindingradio',
+    name: 'DataBindingRadio',
+    component: DataBindingRadio
+  },
+  {
+    path: '/DataBindingAttribue',
+    name: 'DataBindingAttribue',
+    component: DataBindingAttribue
+  },
+  {
+    path: '/DataBindingButton',
+    name: 'DataBindingButton',
+    component: DataBindingButton
+  },
+  {
+    path: '/DataBindingClass',
+    name: 'DataBindingClass',
+    component: DataBindingClass
+  },
+  {
+    path: '/DataBindingClass2',
+    name: 'DataBindingClass2',
+    component: DataBindingClass2
+  },
+  {
+    path: '/DataBindingList',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/DataBindingVIf',
+    name: 'DataBindingVIf',
+    component: DataBindingVIf
+  },
+  
 ]
 
 const router = createRouter({
