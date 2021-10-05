@@ -33,7 +33,7 @@ export default {
     },
     methods: {
         async getList() {
-            this.productList = await this.$api('https://825e1f9e-715d-4aaf-8322-13fe7319e5cb.mock.pstmn.io/list',"get")
+            this.productList = await this.$api('https://825ef9e-715d-4aaf-8322-13fe7319e5cb.mock.pstmn.io/list',"get")
             console.log(this.productList);
         }
     }

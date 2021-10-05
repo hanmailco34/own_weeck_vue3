@@ -20,8 +20,80 @@ import Computed from '../views/Computed.vue';
 import Watch from '../views/Watch.vue';
 import Watch2 from '../views/Watch2.vue';
 import DataBindingList2 from '../views/DataBindingList2.vue';
+import NestedComponent from '../views/NestedComponent.vue';
+import ParentComponent from '../views/ParentComponent.vue';
+import ParentComponent2 from '../views/ParentComponent2.vue';
+import ParentComponent3 from '../views/ParentComponent3.vue';
+import ParentComponent4 from '../views/ParentComponent4.vue';
+import ParentComponent5 from '../views/ParentComponent5.vue';
+import SlotUseModalLayout from '../views/SlotUseModalLayout.vue';
+import ProvideInject from '../views/ProvideInject.vue';
+import CompositionAPI from '../views/CompositionAPI.vue';
+import CompositionAPI2 from '../views/CompositionAPI2.vue';
+import CompositionAPI3 from '../views/CompositionAPI3.vue';
+import CompositionAPI4 from '../views/CompositionAPI4.vue';
 
 const routes = [
+  {
+    path: '/CompositionAPI4',
+    name: 'CompositionAPI4',
+    component: CompositionAPI4
+  },
+  {
+    path: '/CompositionAPI3',
+    name: 'CompositionAPI3',
+    component: CompositionAPI3
+  },
+  {
+    path: '/CompositionAPI2',
+    name: 'CompositionAPI2',
+    component: CompositionAPI2
+  },
+  {
+    path: '/CompositionAPI',
+    name: 'CompositionAPI',
+    component: CompositionAPI
+  },
+  {
+    path: '/ProvideInject',
+    name: 'ProvideInject',
+    component: ProvideInject
+  },
+  {
+    path: '/SlotUseModalLayout',
+    name: 'SlotUseModalLayout',
+    component: SlotUseModalLayout
+  },
+  {
+    path: '/ParentComponent5',
+    name: 'ParentComponent5',
+    component: ParentComponent5
+  },
+  {
+    path: '/ParentComponent4',
+    name: 'ParentComponent4',
+    component: ParentComponent4
+  },
+  {
+    path: '/ParentComponent3',
+    name: 'ParentComponent3',
+    component: ParentComponent3
+  },
+  {
+    path: '/ParentComponent2',
+    name: 'ParentComponent2',
+    component: ParentComponent2
+  },
+  {
+    path: '/ParentComponent',
+    name: 'ParentComponent',
+    component: ParentComponent
+  },
+  {
+    path: '/NestedComponent',
+    name: 'NestedComponent',
+    component: NestedComponent
+  },
   {
     path: '/DataBindingList2',
     name: 'DataBindingList2',
